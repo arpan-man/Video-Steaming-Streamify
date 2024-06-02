@@ -1,0 +1,103 @@
+.videosContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2px;
+}
+.videosContainer {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  scrollbar-width: none;
+  scrollbar-color: transparent transparent; 
+  &::-webkit-scrollbar {
+    width: 1px;
+  }
+  &::-webkit-scrollbar-thumb {
+    background-color: transparent;
+  }
+  /* Additional styling adjustments */
+  padding: 2px; /* Add padding to the container */
+  background-color: #f4f4f4; /* Set background color */
+  border-radius: 4px; /* Add border-radius for a rounded look */
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.1); /* Add box shadow for depth */
+}
+
+
+.videosContainer {
+  display: flex; /* Align videos in a row */
+  flex-wrap: nowrap; /* Prevent wrapping to a new line */
+  overflow-x: auto; /* Enable horizontal scrolling */
+  gap: 5px; /* Optional: space between cards */
+}
+
+
+.videoCard {
+  flex: 0 0 auto; 
+  min-width: 240px; 
+}
+
+.videoThumbnail {
+  width: 150px;
+  height: 100px;
+  cursor: pointer;
+}
+
+.ReactModal__Overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.75);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ReactModal__Content {
+  position: relative;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  max-width: 600px;
+  outline: none;
+}
+
+.closeButton {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+
+.fullPageModal .ReactModal__Content {
+  width: 100%;
+  max-width: none;
+}
+
+.playlist-container {
+  margin: 10px;
+}
+
+.playlist-title {
+  font-size: 1.5em;
+}
+
+.playlist-description {
+  margin-bottom: 20px;
+}
+
+.videos-container {
+  display: flex;
+}
+
+.video-thumbnail {
+  margin: 5px;
+  cursor: pointer;
+}
+
+.playlistContainer{
+  margin:1.5rem 1rem;
+}

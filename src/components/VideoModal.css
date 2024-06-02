@@ -1,0 +1,44 @@
+/* .Video-modal{
+  background-color: whitesmoke;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btnClass{
+  margin: 0;
+  padding: 0;
+  width: 6vh;
+  height: 6vh;
+  border-radius: 0;
+  color: black !important;
+}
+.btnClass:hover{
+  background-color:rgb(248, 62, 62) !important;
+  color: black !important;
+} */
+
+
+.Video-modal {
+  background-color:whitesmoke;
+  height: 100vh; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.btnClass {
+  margin: 0;
+  padding: 0;
+  width: 6vh;
+  height: 6vh;
+  border-radius: 0;
+  color: black !important;
+}
+
+.btnClass:hover {
+  background-color: rgb(248, 62, 62) !important;
+  color: black !important;
+}

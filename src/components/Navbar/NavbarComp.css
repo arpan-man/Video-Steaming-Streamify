@@ -1,0 +1,42 @@
+/* NavbarComp.css */
+
+.NavLink {
+  font-family: sans-serif;
+  align-items: center;
+  font-size: 1rem;
+}
+
+.Logo {
+  width: 7vw;
+  margin: 0 1rem;
+}
+
+.RightCornerImage {
+  width: 40px; /* Adjust the size as desired */
+  height: 40px; /* Adjust the size as desired */
+  border-radius: 50%; /* Makes the image circular */
+}
+
+.Navbar {
+  background-color: #ffffff; /* Navbar background color */
+  border-bottom: 1px solid #a6a4a4; /* Border line at the bottom */
+}
+
+.Navbar.Brand {
+  display: flex;
+  align-items: center;
+  /* padding: 0 1rem;  */
+}
+
+.Navbar.Collapse {
+  justify-content: flex-end; /* Aligns collapse items to the right */
+}
+
+.Nav {
+  display: flex;
+  align-items: center;
+}
+
+.Nav .me-auto {
+  margin-left: auto; /* Pushes the image to the right */
+}
